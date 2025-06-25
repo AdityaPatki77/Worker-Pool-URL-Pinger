@@ -1,0 +1,12 @@
+Mini Project: Worker Pool URL Pinger
+
+> Objective :-
+
+we'll create a program that :-
+
+- Accepts a list of URLs
+- Spawns a fixed no. of workers (goroutines)
+- Each worker pings URLs (sends a HEAD request)
+- print the status (200, 404,....)
+- use channels, WaitGroup, and proper goroutine communication
+
